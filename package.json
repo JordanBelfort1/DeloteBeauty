@@ -1,9 +1,10 @@
 {
-  "name": "gulp_build",
+  "name": "delotebeauty",
   "version": "1.0.0",
-  "description": "Gulp сборка",
+  "description": "Салон красоты премиум класса в Санкт-Петербурге",
   "main": "gulpfile.js",
   "type": "module",
+  "homepage": "https://JordanBelfort1.github.io",
   "scripts": {
     "dev": "gulp",
     "build": "gulp build --build",
