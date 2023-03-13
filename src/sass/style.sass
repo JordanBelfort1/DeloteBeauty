@@ -1,0 +1,51 @@
+.container
+	max-width: 1345px
+	margin: 0 auto
+	padding: 0 25px
+
+.about, .services, .cosmetics, .works, .footer, .masters, .right__menu, .price, .contacts
+	background-color: #111111
+	margin-top: -2px
+
+*
+	padding: 0
+	margin: 0
+	border: 0 
+	outline: none 
+	border-collapse: collapse
+	-webkit-overflow-scrolling: touch
+	-webkit-tap-highlight-color: transparent
+	box-sizing: border-box
+	font-family: 'Cormorant Garamond', serif
+	
+hr
+	opacity: 0.5
+	border: 1px solid #fff
+
+img
+	max-width: 100%
+	object-fit: cover
+
+@import '_header'
+@import '_footer'
+@import '_right_menu'
+@import '_title'
+@import '_scroll' 
+
+/*index*/
+@import '_promo'
+@import '_about'
+@import '_services'
+@import '_cosmetics'
+@import '_works'
+
+/*masters*/
+@import '_masters'
+
+/*price*/
+@import '_price'
+
+/*price*/
+@import '_contacts'
+
+@import '_media'

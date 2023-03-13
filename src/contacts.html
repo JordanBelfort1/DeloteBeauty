@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html',
+{"title":"DeloteBeauty"})
+
+<body>
+    @@include('html/header.html',{})
+
+    <div class="contacts">
+        <div class="container">
+            <div class="title">Контакты</div>
+            <img class="contacts__map" src="img/contacts/map.png" alt="map image">
+            <div class="contacts__inner">
+                <div class="contacts__item">
+                    <div class="contacts__item-title">Контакты</div>
+                    <div class="contacts__item-info">
+                        <div>+7 (812) 123-45-67</div>
+                        <div>+7 (911) 123-45-67</div>
+                        <div>Новоостровский проспект, дом 36 лит. С</div>
+                    </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__item-title">Режим работы</div>
+                    <div class="contacts__item-info">
+                        <div>C 10:00 до 21:00 (Пн-Пт)</div>
+                        <div>С 11:00 до 20:00 (Сб-Вс)</div>
+                    </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__item-title">Как добраться</div>
+                    <div class="contacts__item-description">
+                        От ст. метро «Крестовский остров» идти по Морскому пр. до ул. Спортивной. 
+                        После этого повернуть на неё и идти до пересечения ул. Спортивной и Новоостровского пр.
+                        На их пересечении находится здание с вывеской «Delote Beauty»
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @@include('html/right_menu.html',{})
+
+    <div class="scroll_top">
+		<img src="img/scroll_top.png" alt="scroll top icon">
+	</div>
+
+    @@include('html/footer.html',{})
+
+    <script src="js/app.min.js"></script>
+</body>
